@@ -8,15 +8,16 @@ The goal is to test whether AI can accelerate **bottom-up troubleshooting** by p
 In traditional troubleshooting, log analysis can be time-consuming, requiring pattern recognition, documentation lookup, and manual correlation with known issues.  
 This PoC approaches the problem *from the desktop upward*: using an AI assistant (Copilot) to read, summarize, and suggest meaning behind anonymized logs.
 
-It complements the earlier *top-down monitoring* PoC using Grafana and Prometheus by focusing on **local intelligence and assistive reasoning** rather than system-level data aggregation.
+It complements the earlier tested *https://github.com/A1cX/AI_Log_PoC* that used sample data and Jupyter Noytebook on Hadoop logs to detect anomalies by focusing now on **local intelligence and assistive reasoning** rather than system-level data aggregation.
 
 ## Approach
-1. Collect anonymized logs from the local environment.  
-2. Use Copilot to:
+1. Collect anonymized logs from the local environment.
+2. Manually anonymize and sanitize the data - this step is most challenging  but required diue to to one prem application characteristics
+3. Use Copilot to:
    - Summarize errors or warnings.
    - Explain likely causes.
    - Suggest next troubleshooting steps.
-3. Compare the AI's reasoning with known resolutions or admin notes.
+4. Compare the AI's reasoning with known resolutions or admin notes.
 
 ## Safety & Anonymization
 All log samples are stripped of:
