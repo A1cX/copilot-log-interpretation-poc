@@ -25,19 +25,7 @@ All log samples are stripped of:
 - IP addresses or usernames
 - Product or environment names
 
-A PowerShell or Python script can perform this basic anonymization before testing.
-
-## Repository Structure
-\`\`\`
-copilot-log-interpretation-poc/
-│
-├── README.md
-├── sample_logs/             ← anonymized logs for testing
-├── notebooks/               ← optional notes
-├── scripts/                 ← helper scripts
-└── results/
-    └── copilot_responses.md ← logbook of test results
-\`\`\`
+Check the possiblity os using PowerShell or Python script to perform anonymization before testing.
 
 ## Results Tracking
 Each Copilot test is documented in `results/copilot_responses.md` with:
