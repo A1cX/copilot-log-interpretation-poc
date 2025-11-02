@@ -1,0 +1,1 @@
+# Copilot Responses Logbook
