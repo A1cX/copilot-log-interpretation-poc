@@ -12,7 +12,7 @@ It complements the earlier tested *https://github.com/A1cX/AI_Log_PoC* that used
 
 ## Approach
 1. Collect anonymized logs from the local environment.
-2. Manually anonymize and sanitize the data - this step is most challenging  but required diue to to one prem application characteristics
+2. Manually anonymize and sanitize the data - this step is most challenging  but required due to on prem application characteristics
 3. Use Copilot to:
    - Summarize errors or warnings.
    - Explain likely causes.
