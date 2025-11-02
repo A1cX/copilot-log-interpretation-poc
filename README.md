@@ -1,4 +1,4 @@
-# 🧠 Copilot Log Interpretation PoC
+# Copilot Log Interpretation PoC
 
 ## Overview
 This Proof of Concept explores how **Microsoft Copilot** on Windows can assist in **interpreting and summarizing application logs** directly from the desktop.  
